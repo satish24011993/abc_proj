@@ -1,1 +1,1 @@
-web: gunicorn abc_proj.task_project.wsgi --log-file -
+web: gunicorn task_project.wsgi --log-file -
